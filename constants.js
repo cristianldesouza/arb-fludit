@@ -30,8 +30,8 @@ module.exports = Object.freeze({
 	},
 	MENU: {
 		pt: `<li class="menuItem">
-  <a class="itemLink" href="/c/gestao-de-portifolio/">
-    <span class="point"></span><span class="itemTitle">Gestão de Portifólio</span>
+  <a class="itemLink" href="/c/gestao-de-portfolio/">
+    <span class="point"></span><span class="itemTitle">Gestão de Portfólio</span>
   </a>
 </li>
 <li class="menuItem">

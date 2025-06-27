@@ -1,0 +1,10 @@
+name = "arb-fludit"
+main = "index.js"
+compatibility_date = "2025-01-27"
+
+[site]
+bucket = "./public"
+
+[[kv_namespaces]]
+binding = "ARB_HOME_PAGES"
+id = "5e308ed820e44f4e88669f135afffe4a"

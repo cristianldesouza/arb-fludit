@@ -1,0 +1,51 @@
+<div class="wrap">
+    <div class="bannerWrap">
+        <div class="indexBanner">
+            <div class="bannerTitle">
+                <h1 class="title">
+                    <img src="/public/img/logo.svg" alt="Logo" class="logo">
+                    {{SITE_SLOGAN}}
+                </h1>
+            </div>
+            <div class="bannerText">
+                {{SITE_DESCRIPTION}}
+            </div>
+        </div>
+    </div>
+    <div class="contWrap">
+        <div class="topList">
+            <div class="topListLeft">
+                {{MAIN_POST}}
+                <ul class="topLineList">
+                    {{MAIN_POSTS_LIST}}
+                </ul>
+            </div>
+            <div class="topListRight">
+                <ul class="sidebarList">
+                    {{TOP_READED_LIST}}
+                </ul>
+            </div>
+        </div>
+        <div class="popularCate">
+            <div class="popularCateTop">
+                <h2 class="popularCateTitle">{{POPULAR_CATEGORIES_TITLE}}</h2>
+                <div class="tabsNav">
+                    <div class="tabsNavGroup">
+                        {{CATEGORIES}}
+                    </div>
+                </div>
+            </div>
+            <div class="tabsContent">{{CATEGORIES_CONTENT}}</div>
+        </div>
+        <div class="newArticlesWrap">
+            <div class="moduleTitle">
+                <span class="point"></span>
+                <h2 class="title">{{LATEST_ARTICLES_TITLE}}</h2>
+                <div class="border"></div>
+            </div>
+            <ul class="articlesList">
+                {{POSTS}}
+            </ul>
+        </div>
+    </div>
+</div>

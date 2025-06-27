@@ -1,0 +1,30 @@
+<main class="wrap">
+    <div class="contWrap">
+        <div class="detailsCont">
+            <div class="moduleTitle" style="margin-bottom: 20px;">
+                <span class="point"></span>
+                <h2 class="title">{{name}}</h2>
+            </div>
+            <div class="article">
+                <div class="articleLeft">
+                    <div class="popularCate" style="padding-bottom: 20px;">
+                        <div class="tabsContent">
+                            <div class="tabContent active" id="tab-0">
+                                <ul class="articlesList">
+                                    {{category.posts}}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    {{pagination}}
+                </div>
+                <div class="articleRight">
+                    <div class="newArticlesWrap">
+                        {{sidebar}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</main>

@@ -1,0 +1,30 @@
+<div class="wrap">
+    <div class="contWrap" style="max-width: 850px; margin-bottom: 30px;">
+        <div class="detailsCont">
+            <p>{ad_top}</p>
+            <div class="detailsTop">
+                <h2 class="articleTitle">{{title}}</h2>
+                <div class="anthorInfo">
+                    {{description}}
+                </div>
+            </div>
+            <div class="article">
+                <div class="articleLeft">
+                    [ad]
+                    {{posts}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    @media (max-width: 600px) {
+        .headWrap, .footerWrap, .detailsTop .guide, .anthorInfo  {
+            display: none;
+        }
+
+        h2.articleTitle-title {
+            text-align: center;
+        }
+    }
+</style>

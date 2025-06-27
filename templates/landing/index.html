@@ -1,0 +1,53 @@
+<div class="wrap">
+    <div class="contWrap" style="max-width: 850px; margin-bottom: 30px;">
+        <div class="detailsCont">
+            <div class="detailsTop">
+                <div class="guide">
+                    <a class="guideLink" href="/">Home</a>
+                    <div class="guideIcon"> ></div>
+                    <a class="guideLink" href="{{category_url}}">{{category_name}}</a>
+                    <div class="guideIcon"> ></div>
+                    <div class="guideText">{{title}}</div>
+                </div>
+                <h2 class="articleTitle">{{title}}</h2>
+                <div class="anthorInfo">
+                    <div class="time">{{published_date}}</div>
+                    <span class="separator"> •</span>
+                    <a href="{{author_url}}">{{author_name}}</a>
+                </div>
+            </div>
+            <p>{ad_top}</p>
+            <div class="article">
+                <div class="articleLeft">
+                    <div id="relatedsearches1"></div>
+                    <div class="articleImg">
+                        <img
+                            class="lazyImg"
+                            src="{{image}}"
+                            data-src="{{image}}"
+                            alt="{{title}}"
+                        >
+                    </div>
+                    <div class="customTheme">
+                        <p>{{top_text}}</p>
+                        {{benefitsItem}}
+                        <p>{cta}</p>
+                        {{prosAndCons}}
+                        <p>{cta}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    @media (max-width: 600px) {
+        .headWrap, .footerWrap, .detailsTop .guide, .anthorInfo  {
+            display: none;
+        }
+
+        h2.articleTitle-title {
+            text-align: center;
+        }
+    }
+</style>

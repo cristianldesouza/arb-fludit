@@ -1,0 +1,79 @@
+<div class="wrap">
+    <div class="contWrap">
+        <div class="detailsCont">
+            <p>{ad_top}</p>
+            <div class="detailsTop">
+                <div class="guide">
+                    <a class="guideLink" href="/">Home</a>
+                    <div class="guideIcon"> ></div>
+                    <a class="guideLink" href="{{category_url}}">{{category_name}}</a>
+                    <div class="guideIcon"> ></div>
+                    <div class="guideText">{{title}}</div>
+                </div>
+                <h2 class="articleTitle">{{title}}</h2>
+                <div class="anthorInfo">
+                    <div class="time">{{published_date}}</div>
+                    <span class="separator"> •</span>
+                    <a href="{{author_url}}">{{author_name}}</a>
+                </div>
+            </div>
+            <div class="article">
+                <div class="articleLeft">
+                    <div id="relatedsearches1"></div>
+                    <div class="articleImg">
+                        <img
+                            class="lazyImg"
+                            src="{{image}}"
+                            data-src="{{image}}"
+                            alt="{{title}}"
+                        >
+                    </div>
+                    <div class="customTheme">
+                        <p>{ad_mid}</p>
+                        {{content}}
+                        {{references}}
+                    </div>
+                    <section class="author-box">
+                        <a href="{{author_url}}">
+                            <img src="{{author_avatar}}" alt="{{author_name}}" class="author-avatar">
+                        </a>
+                        <div class="author-info">
+                            <h3 class="author-title">
+                                {{author_about_title}}
+                                <a href="{{author_url}}">{{author_name}}</a>
+                            </h3>
+                            <p class="author-desc">
+                                {{author_short_bio}}
+                            </p>
+                        </div>
+                    </section>
+                </div>
+                <div class="articleRight">
+                    <div class="tableContents">
+                        <h2 class="title">{{post_table_title}}</h2>
+                        <ul class="contentsList">
+                            {{post_table_items}}
+                        </ul>
+                    </div>
+                    <div class="newArticlesWrap">
+                        {{sidebar}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contWrap">
+        <div class="popularCate">
+            <div class="popularCateTop">
+                <div class="moduleTitle">
+                    <span class="point"></span>
+                    <h2 class="title">{{read_more_title}}...</h2>
+                    <div class="border"></div>
+                </div>
+            </div>
+            <div class="tabsContent">
+                {{related}}
+            </div>
+        </div>
+    </div>
+</div>
